@@ -23,7 +23,7 @@ public class VariableApp {
 
         System.out.printf("There are %s in the week.%n", daysInTheWeek);
         System.out.printf("The coffee is priced at: $%.2f%n", coffeePrice);
-        System.out.printf("My favorite letter is: '%c'%n", 'R');
+        System.out.printf("My favorite letter is: %s\n", favLetter);
         System.out.printf("Is it raining? (true/false): %b",isRaining);
     }
 }
