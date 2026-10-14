@@ -21,9 +21,9 @@ public class VariableApp {
         String favLetter = "R";
         boolean isRaining = true;
 
-        System.out.printf(
-                "There are %s in the week."
-                "The coffee is priced at: $ %f",
-                ,daysInTheWeek,coffeePrice);
+        System.out.printf("There are %s in the week.%n", daysInTheWeek);
+        System.out.printf("The coffee is priced at: $%.2f%n", coffeePrice);
+        System.out.printf("My favorite letter is: '%c'%n", 'R');
+        System.out.printf("Is it raining? (true/false): %b",isRaining);
     }
 }
